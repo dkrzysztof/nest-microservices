@@ -10,4 +10,3 @@ const validationObject = {
 export type ConfigKeys = typeof validationObject;
 export const validationSchema = Joi.object(validationObject);
 
-export class ConfigService extends NestConfigService<ConfigKeys> {}
